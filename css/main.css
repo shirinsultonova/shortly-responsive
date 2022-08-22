@@ -211,7 +211,7 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  .hero .input {
+  .hero .form-input {
     width: 769px;
     padding: 14px 32px;
     border-radius: 10px;
@@ -221,75 +221,75 @@
     border: none;
     border: 2px solid transparent;
   }
-  .hero .input::-webkit-input-placeholder {
+  .hero .form-input::-webkit-form-input-placeholder {
     font-weight: 500;
     font-size: 20px;
     line-height: 36px;
     color: #9E9AA8;
   }
-  .hero .input::-moz-placeholder {
+  .hero .form-input::-moz-placeholder {
     font-weight: 500;
     font-size: 20px;
     line-height: 36px;
     color: #9E9AA8;
   }
-  .hero .input:-ms-input-placeholder {
+  .hero .form-input:-ms-form-input-placeholder {
     font-weight: 500;
     font-size: 20px;
     line-height: 36px;
     color: #9E9AA8;
   }
-  .hero .input::-ms-input-placeholder {
+  .hero .form-input::-ms-form-input-placeholder {
     font-weight: 500;
     font-size: 20px;
     line-height: 36px;
     color: #9E9AA8;
   }
-  .hero .input::placeholder {
+  .hero .form-input::placeholder {
     font-weight: 500;
     font-size: 20px;
     line-height: 36px;
     color: #9E9AA8;
   }
-  .hero .input:not(:-moz-placeholder-shown):not(:focus):invalid {
+  .hero .form-input:not(:-moz-placeholder-shown):not(:focus):invalid {
     border: 2px solid #F46363;
     border-radius: 10px;
     color: #F46363;
   }
-  .hero .input:not(:-ms-input-placeholder):not(:focus):invalid {
+  .hero .form-input:not(:-ms-form-input-placeholder):not(:focus):invalid {
     border: 2px solid #F46363;
     border-radius: 10px;
     color: #F46363;
   }
-  .hero .input:not(:placeholder-shown):not(:focus):invalid {
+  .hero .form-input:not(:placeholder-shown):not(:focus):invalid {
     border: 2px solid #F46363;
     border-radius: 10px;
     color: #F46363;
   }
-  .hero .input:not(:-moz-placeholder-shown):not(:focus):valid {
+  .hero .form-input:not(:-moz-placeholder-shown):not(:focus):valid {
     border: 2px solid #008000;
     border-radius: 10px;
     color: #008000;
   }
-  .hero .input:not(:-ms-input-placeholder):not(:focus):valid {
+  .hero .form-input:not(:-ms-form-input-placeholder):not(:focus):valid {
     border: 2px solid #008000;
     border-radius: 10px;
     color: #008000;
   }
-  .hero .input:not(:placeholder-shown):not(:focus):valid {
+  .hero .form-input:not(:placeholder-shown):not(:focus):valid {
     border: 2px solid #008000;
     border-radius: 10px;
     color: #008000;
   }
-  .hero .input:not(:-moz-placeholder-shown):not(:focus):invalid + span {
+  .hero .form-input:not(:-moz-placeholder-shown):not(:focus):invalid + span {
     color: #F46363;
     font-style: italic;
   }
-  .hero .input:not(:-ms-input-placeholder):not(:focus):invalid + span {
+  .hero .form-input:not(:-ms-form-input-placeholder):not(:focus):invalid + span {
     color: #F46363;
     font-style: italic;
   }
-  .hero .input:not(:placeholder-shown):not(:focus):invalid + span {
+  .hero .form-input:not(:placeholder-shown):not(:focus):invalid + span {
     color: #F46363;
     font-style: italic;
   }
@@ -553,10 +553,10 @@
     .hero .forms {
       margin: 0 24px;
     }
-    .hero .form-input {
+    .hero .form-form-input {
       width: 76%;
     }
-    .hero .input {
+    .hero .form-input {
       width: 100%;
     }
     .intro .card-list-item {
@@ -576,7 +576,7 @@
     }
   }
   @media only screen and (max-width: 1000px) {
-    .hero .form-input {
+    .hero .form-form-input {
       width: 70%;
       max-width: 700px;
     }
@@ -585,7 +585,7 @@
     }
   }
   @media only screen and (max-width: 860px) {
-    .hero .form-input {
+    .hero .form-form-input {
       width: 63%;
       max-width: 700px;
     }
@@ -737,7 +737,7 @@
       width: 100%;
       text-align: center;
     }
-    .hero .form-input {
+    .hero .form-form-input {
       width: 100%;
     }
     .hero .forms {
@@ -752,17 +752,17 @@
           -ms-flex-direction: column;
               flex-direction: column;
     }
-    .hero .input {
+    .hero .form-input {
       width: 100%;
       max-width: 800px;
     }
-    .hero .input:not(:-moz-placeholder-shown):not(:focus):invalid {
+    .hero .form-input:not(:-moz-placeholder-shown):not(:focus):invalid {
       margin-bottom: 38px;
     }
-    .hero .input:not(:-ms-input-placeholder):not(:focus):invalid {
+    .hero .form-input:not(:-ms-form-input-placeholder):not(:focus):invalid {
       margin-bottom: 38px;
     }
-    .hero .input:not(:placeholder-shown):not(:focus):invalid {
+    .hero .form-input:not(:placeholder-shown):not(:focus):invalid {
       margin-bottom: 38px;
     }
     .hero label span {

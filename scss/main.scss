@@ -189,7 +189,7 @@ body{
     display: flex;
     justify-content: space-between;
   }
-  .input {
+  .form-input {
     width: 769px;
     padding: 14px 32px;
     border-radius: 10px;
@@ -200,25 +200,25 @@ body{
     
     border: 2px solid transparent;  
   }
-  .input::placeholder {
+  .form-input::placeholder {
     font-weight: 500;
     font-size: 20px;
     line-height: 36px;
     color: #9E9AA8;
   }
-  .input:not(:placeholder-shown):not(:focus):invalid {
+  .form-input:not(:placeholder-shown):not(:focus):invalid {
     border: 2px solid #F46363;
     border-radius: 10px;
     color: #F46363;
     
   }
-  .input:not(:placeholder-shown):not(:focus):valid {
+  .form-input:not(:placeholder-shown):not(:focus):valid {
     border: 2px solid #008000;
     border-radius: 10px;
     color: #008000;
     
   }
-  .input:not(:placeholder-shown):not(:focus):invalid + span {
+  .form-input:not(:placeholder-shown):not(:focus):invalid + span {
     color: #F46363;
     font-style: italic;
     
@@ -464,10 +464,10 @@ color: #2BD0D0;
     .forms {
       margin: 0 24px;
     }
-    .form-input {
+    .form-form-input {
       width: 76%;
     }
-    .input {
+    .form-input {
        
       width: 100%;
     }
@@ -491,7 +491,7 @@ color: #2BD0D0;
 }
 @media only screen and (max-width:1000px) {
   .hero {
-    .form-input {
+    .form-form-input {
       width: 70%;
       max-width: 700px;
     }
@@ -505,7 +505,7 @@ color: #2BD0D0;
 }
 @media only screen and (max-width:860px) {
   .hero {
-    .form-input {
+    .form-form-input {
       width: 63%;
       max-width: 700px;
     }
@@ -650,7 +650,7 @@ margin: 0;
       width: 100%;
       text-align: center;
     }
-    .form-input {
+    .form-form-input {
       width:100%;
      
     }
@@ -664,11 +664,11 @@ margin: 0;
     .form {
       flex-direction: column;
     }
-    .input {
+    .form-input {
       width: 100%;
       max-width: 800px;
     }
-    .input:not(:placeholder-shown):not(:focus):invalid {
+    .form-input:not(:placeholder-shown):not(:focus):invalid {
       margin-bottom: 38px;
     }
     label span {
